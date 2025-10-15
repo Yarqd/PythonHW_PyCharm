@@ -1,0 +1,32 @@
+# === Python cache ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Virtual environments ===
+.venv/
+venv/
+ENV/
+env/
+.venv*/
+
+# === IDE / PyCharm ===
+.idea/
+*.iml
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Logs / temp ===
+*.log
+*.tmp
+*.bak
+
+# === Other ===
+# (если вдруг ты добавишь requirements, можно оставить)
+# requirements.txt
+
+# === Include only homework scripts ===
+# Всё остальное игнорим, кроме файлов HomeWork*.py
+!HomeWork*.py
